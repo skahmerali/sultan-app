@@ -13,6 +13,7 @@ server.get("/water", (req, res, next) => {
 server.get("/food", (req, res, next) => {
     console.log("some one is asking food");
     res.send("here is food");
+    
 })
 
 server.listen(PORT, () => {
